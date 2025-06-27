@@ -46,15 +46,15 @@ trainn_ds = CustomDataset(
 # train and valid dataset
 
 train2_ds = ImageFolder(
-    root="/home/ccet/SIH/Data/perc/siri-mulperc/10/train/",
+    root="/kaggle/input/aptos2019/train_images",
     transform=custom_transform
 )
 valid2_ds = ImageFolder(
-    root="/home/ccet/SIH/Data/perc/siri-mulperc/10/val/",
+    root="/kaggle/input/aptos2019/val_images",
     transform=custom_transform
 )
 test2_ds = ImageFolder(
-    root="/home/ccet/SIH/Data/perc/siri-mulperc/10/test/",
+    root="/kaggle/input/aptos2019/test_images",
     transform=custom_transform
 )
 
