@@ -39,7 +39,7 @@ custom_transform = ContrastiveLearningViewGenerator(base_transform=base_transfor
 
 # complete dataset
 trainn_ds = CustomDataset(
-    list_images=glob.glob("/home/ccet/SIH/Data/ind-data/sirisplit/train/**/*.tif",recursive = True),
+    list_images=glob.glob("/kaggle/input/aptos2019",recursive = True),
     transform=custom_transform
 )
 
